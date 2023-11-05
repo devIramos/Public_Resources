@@ -1,0 +1,153 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Estilos para la cabecera si es necesario */
+}
+
+.hero {
+    background-color: #F3F2F1; /* Un color aproximado al del fondo */
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #603E94; /* Color aproximado del texto */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #5C5C5C; /* Color aproximado del texto */
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    background-color: #005A9E; /* Color aproximado para los botones */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#login {
+    background-color: #0078D4; /* Color diferente para el botón Iniciar sesión */
+}
+
+button:hover {
+    background-color: #003A60; /* Color al pasar el ratón sobre el botón */
+}
+
+.link {
+    color: #0078D4; /* Color de enlace */
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+/* Estilos para el encabezado */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff; /* Fondo blanco o el color que corresponda al diseño */
+}
+
+.logo-container {
+    /* Contenedor para el logo de Windows */
+}
+
+.windows-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #0078D4;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%, 50% 0%, 50% 50%, 100% 50%, 50% 100%, 50% 50%, 0% 50%);
+    display: inline-block;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    padding: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333; /* Color oscuro para contraste */
+    font-weight: bold;
+}
+
+.nav-list a.my-account {
+    color: #0078D4; /* Color distintivo para "My account" */
+}
+
+.buy-now {
+    padding: 10px 20px;
+    background-color: #0078D4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #005A9E;
+}
+
+.menu-user {
+    /* Estilos para el icono de usuario o menú adicional */
+}
+
+/* Reset CSS para otros elementos si es necesario */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gradient-text {
+    /* Asegúrate de que el texto es lo suficientemente grande para un buen efecto */
+    font-size: 3em;
+    font-weight: bold;
+    /* Usa una herramienta de selección de color para capturar los colores exactos del degradado de la imagen */
+    background-image: linear-gradient(to right, #F59F00, #F0F); /* Cambia los colores para que coincidan con los de la imagen */
+    
+    /* Centrar el texto horizontalmente */
+    text-align: center;
+  
+    /* Hace que el degradado se aplique solo al texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Hace el color del texto transparente para que el fondo sea visible */
+    color: transparent;
+  
+    /* Ajustar la línea de base del texto */
+    line-height: 1.2;
+  
+    /* Para centrar el texto verticalmente también, si el h1 tiene una altura específica */
+  
+    /* Remueve el margen por defecto de h1 */
+    margin: 0; 
+  }
+  
+  
+/* Otros estilos que ya has definido previamente */
